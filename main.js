@@ -1,3 +1,4 @@
+function jogar() {
 rodada = 1
 
 while(rodada <= 3) {
@@ -22,4 +23,5 @@ while(rodada <= 3) {
 
 if (rodada == 4) {
   alert("Você venceu!")
+}
 }
