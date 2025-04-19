@@ -72,7 +72,7 @@ header {
   
   .nav-item:hover {
     display: flex;
-    background-color: #366725;
+    background-color: #285083;
     width: 110PX;
     border-radius: 8px;
   }
