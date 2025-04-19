@@ -34,3 +34,32 @@ function jogar() {
 
   document.getElementById('pontos').innerText = pontosAcumulados;
 }
+
+document.querySelectorAll('.btnList').forEach(item => {
+  item.addEventListener('click', function () {
+    const navBar = document.querySelector('.navbar');
+    const content = document.querySelector('.imgFundo');
+    const isSmallScreen = window.matchMedia('(max-width: 370px)').matches;
+
+    if (navBar) {
+      if (navBar.style.height && navBar.style.height !== '0px') {
+        navBar.style.height = '0px';
+        item.style.width = '30%';
+
+        // Remove a margem se for tela pequena
+        if (isSmallScreen && content) {
+          content.style.marginTop = '0px';
+        }
+      } else {
+        navBar.style.height = navBar.scrollHeight + 'px';
+        item.style.width = '100%';
+
+        // Adiciona a margem se for tela pequena
+        if (isSmallScreen && content) {
+          content.style.marginTop = '180px';
+          item.style.width = '60%';
+        }
+      }
+    }
+  });
+});
