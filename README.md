@@ -1,4 +1,4 @@
-# <h1 align="center"> 🎮 Jogo Monstros S/A </h1>
+# <h1 align="center"> 👾 Jogo Monstros S/A </h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
@@ -17,7 +17,14 @@ Projeto desenvolvido durante a **Imersão Dev** da Alura em abril de 2025. O obj
 - 🛠️ **Praticar lógica condicional** (if/else) em JavaScript, processando dados de formulários. Introdução ao loop while, trabalhando com niveis do jogo.
 - 🎮 **Criar um jogo interativo** baseado em escolhas e condições.  
 - 🤝 **Engajar com a comunidade** e trocar experiências.  
-- ✨ **Aprimorar habilidades** e aprofundar conhecimentos em linguagens de programação.  
+- ✨ **Aprimorar habilidades** e aprofundar conhecimentos em linguagens de programação.
+
+### 📝 Descrição do Jogo:  
+- 🧠 **Jogo interativo por meio de prompts**, em que o jogador digita o número da porta que deseja abrir.
+- 🚪 **Cada porta é sorteada via JavaScript**, podendo ser boa (ganha energia) ou ruim (perde energia).
+- ⚡ **A energia é acumulada ao longo do jogo**, simulando o funcionamento da fábrica de energia no universo de Monstros S/A.
+- 💾 **As informações são armazenadas e manipuladas em tempo real**, incentivando o uso da lógica condicional e controle de fluxo com if/else e while.
+- 🎨 **Criatividade aplicada ao tema**, com uma mecânica que remete diretamente à geração de energia do filme, adaptada ao aprendizado de JavaScript.
 
 ### 💫 Deploy  
 O projeto está disponível online! Confira no link abaixo:  
