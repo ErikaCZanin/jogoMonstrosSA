@@ -7,18 +7,29 @@ header {
   
   
   
-  @media (max-width:370px) {
+  @media (max-width:390px) {
     .nav {
-      width: 100vw !important;
+      width: 100vw ;
       margin-right: 0 !important;
       padding: 8px 0;
+      margin-top: 12px;
     }
   
     .navbar {
-      width: 60% !important;
+      width: 60%;
     }
   .container {
-    height: 92vh !important;
+    min-height: 94vh !important;
+    padding: 0 14px;
+  }
+
+  header {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content button{
+      margin-top: 8px;
   }
   
   }

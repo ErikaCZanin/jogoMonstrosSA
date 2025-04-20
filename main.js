@@ -38,8 +38,8 @@ function jogar() {
 document.querySelectorAll('.btnList').forEach(item => {
   item.addEventListener('click', function () {
     const navBar = document.querySelector('.navbar');
-    const content = document.querySelector('.imgFundo');
-    const isSmallScreen = window.matchMedia('(max-width: 370px)').matches;
+    const content = document.querySelector('.content');
+    const isSmallScreen = window.matchMedia('(max-width: 390px)').matches;
 
     if (navBar) {
       if (navBar.style.height && navBar.style.height !== '0px') {
@@ -56,7 +56,7 @@ document.querySelectorAll('.btnList').forEach(item => {
 
         // Adiciona a margem se for tela pequena
         if (isSmallScreen && content) {
-          content.style.marginTop = '180px';
+          content.style.marginTop = '210px';
           item.style.width = '60%';
         }
       }
