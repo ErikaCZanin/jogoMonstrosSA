@@ -6,8 +6,8 @@ function jogar() {
   nomeJogador = document.getElementById("nomeJogador").value;
 
   while (rodada <= 3) {
-  escolhaJogador = prompt("Nível " + rodada + ", porta (1, 2 ou 3)?");
-  pisoQuebrado = Math.floor(Math.random() * 3) + 1;
+    escolhaJogador = prompt("Nível " + rodada + ", porta (1, 2 ou 3)?");
+    pisoQuebrado = Math.floor(Math.random() * 3) + 1;
 
     if (escolhaJogador > 3 || escolhaJogador < 1) {
       alert("Digite um valor entre 1 e 3 para jogar!");

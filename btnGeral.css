@@ -3,39 +3,40 @@ header {
     justify-content: end;
     align-items: center;
     background-color: #191919;
-  }
-  
-  
-  
-  @media (max-width:390px) {
+}
+
+
+
+@media (max-width:390px) {
     .nav {
-      width: 100vw ;
-      margin-right: 0 !important;
-      padding: 8px 0;
-      margin-top: 12px;
+        width: 100vw;
+        margin-right: 0 !important;
+        padding: 8px 0;
+        margin-top: 12px;
     }
-  
+
     .navbar {
-      width: 60%;
+        width: 60%;
     }
-  .container {
-    min-height: 94vh !important;
-    padding: 0 14px;
-  }
 
-  header {
-    justify-content: center;
-    align-items: center;
-  }
+    .container {
+        min-height: 94vh !important;
+        padding: 0 14px;
+    }
 
-  .content button{
-      margin-top: 8px;
-  }
-  
-  }
-  
-  
-  .navbar {
+    header {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content button {
+        margin-top: 8px;
+    }
+
+}
+
+
+.navbar {
     height: 0;
     overflow: hidden;
     transition: height 0.4s ease;
@@ -47,10 +48,10 @@ header {
     width: 100%;
     display: flex;
     /* mantém a estrutura */
-  }
-  
-  
-  .navbar ul {
+}
+
+
+.navbar ul {
     display: flex;
     gap: 8px;
     flex-direction: column;
@@ -58,9 +59,9 @@ header {
     justify-content: center;
     padding: 0;
     margin-top: 14px;
-  }
-  
-  .nav {
+}
+
+.nav {
     margin-right: 38px;
     position: absolute;
     top: 20px;
@@ -69,9 +70,9 @@ header {
     justify-content: end;
     align-items: center;
     flex-direction: column;
-  }
-  
-  .nav-item {
+}
+
+.nav-item {
     display: flex;
     height: 40PX;
     width: 110PX;
@@ -79,26 +80,26 @@ header {
     align-items: center;
     justify-content: center;
     transition: all 0.4s ease;
-  }
-  
-  .nav-item:hover {
+}
+
+.nav-item:hover {
     display: flex;
     background-color: #285083;
     width: 110PX;
     border-radius: 8px;
-  }
-  
-  .navbar h1 {
+}
+
+.navbar h1 {
     margin: 0;
     font-size: 16px;
     text-align: center;
     margin-bottom: 4px;
     margin-top: 20px;
-  }
-  
-  li,
-  a {
+}
+
+li,
+a {
     list-style: none;
     text-decoration: none;
     color: white;
-  }
+}
