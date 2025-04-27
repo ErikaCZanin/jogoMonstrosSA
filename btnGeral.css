@@ -9,10 +9,18 @@ header {
 
 @media (max-width:390px) {
     .nav {
-        width: 100vw;
         margin-right: 0 !important;
         padding: 8px 0;
-        margin-top: 12px;
+        margin-top: 45px !important;
+    }
+
+    #nomeJogador {
+        margin-top: 4px;
+    }
+
+    .btnList {
+        height: 50px;
+        width: 90px;
     }
 
     .navbar {
@@ -62,6 +70,7 @@ header {
 }
 
 .nav {
+    margin-top: 10px;
     margin-right: 38px;
     position: absolute;
     top: 20px;

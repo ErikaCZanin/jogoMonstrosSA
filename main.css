@@ -11,16 +11,20 @@ body {
 /* Logo Styles */
 .logo {
   position: absolute;
-  top: 20px;
+  top: 35px;
   left: 20px;
   max-width: 150px;
   width: auto;
 }
 
+#nomeJogador {
+  padding: 8px;
+}
+
 /* Container with the background image */
 .container {
   background: url('https://live.staticflickr.com/65535/54430062814_4753829776_h.jpg') no-repeat center center/cover;
-  min-height: 720px;
+  height: 94vh;
   display: flex;
   justify-content: center;
   align-items: center;
