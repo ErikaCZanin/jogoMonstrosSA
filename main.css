@@ -11,8 +11,8 @@ body {
 /* Logo Styles */
 .logo {
   position: absolute;
-  top: 35px;
-  left: 20px;
+  bottom: 650px;
+  left: 10%;
   max-width: 150px;
   width: auto;
 }

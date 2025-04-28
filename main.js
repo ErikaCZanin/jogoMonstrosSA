@@ -39,7 +39,7 @@ document.querySelectorAll('.btnList').forEach(item => {
   item.addEventListener('click', function () {
     const navBar = document.querySelector('.navbar');
     const content = document.querySelector('.content');
-    const isSmallScreen = window.matchMedia('(max-width: 390px)').matches;
+    const isSmallScreen = window.matchMedia('(max-width: 768px)').matches;
 
     if (navBar) {
        // Aplica a transição no JavaScript

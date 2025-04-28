@@ -3,28 +3,35 @@ header {
     justify-content: end;
     align-items: center;
     background-color: #191919;
+    height: 0;
 }
 
 
-
-@media (max-width:390px) {
+@media (max-width:768px) {
     .nav {
-        margin-right: 0 !important;
-        padding: 8px 0;
-        margin-top: 45px !important;
-    }
-
+        display: flex;
+        width: 100% !important;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        padding: 14px 0;
+      }
     #nomeJogador {
         margin-top: 4px;
     }
 
+    .logo {
+        top: 20px !important;
+        left: 20% !important;
+        transform: translateX(-50%);
+      }
+
     .btnList {
-        height: 50px;
-        width: 90px;
+        width: 30%;
     }
 
     .navbar {
-        width: 60%;
+        width: 60% !important;
     }
 
     .container {
@@ -32,14 +39,10 @@ header {
         padding: 0 14px;
     }
 
-    header {
-        justify-content: center;
-        align-items: center;
-    }
-
     .content button {
         margin-top: 8px;
     }
+    
 
 }
 
@@ -71,7 +74,6 @@ header {
 
 .nav {
     margin-top: 10px;
-    margin-right: 38px;
     position: absolute;
     top: 20px;
     width: 250px;
