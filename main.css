@@ -18,7 +18,7 @@ body {
 
 .logo {
   position: absolute;
-  bottom: 650px;
+  top: 50px;
   left: 10%;
   max-width: 150px;
   width: auto;
@@ -26,6 +26,7 @@ body {
 
 #nomeJogador {
   padding: 8px;
+  margin: 8px 0;
 }
 
 .container {
