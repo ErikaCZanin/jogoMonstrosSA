@@ -2,9 +2,13 @@ html, body {
   height: 100%;
 }
 
+html {
+  background-color: black;
+}
+
 
 body {
-  background: url('https://live.staticflickr.com/65535/54430062814_4753829776_h.jpg') center center/cover;
+  background: url('https://live.staticflickr.com/65535/54430062814_4753829776_h.jpg') center center / cover no-repeat;
   margin: 0;
   padding: 0;
   font-family: "Oranienbaum", Arial, sans-serif;
