@@ -1,4 +1,4 @@
-# <h1 align="center"> 👾 Econtre a porta certa - Monstros S/A </h1>
+# <h1 align="center"> 👾 Encontre a porta certa - Monstros S/A </h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
